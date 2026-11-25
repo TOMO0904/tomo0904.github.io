@@ -1,0 +1,28 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tomohiro — AI自動化デベロッパー（n8n・Python・API連携）</title>
+<meta name="description" content="AI自動化デベロッパー Tomohiro のポートフォリオ。n8n、Python、API連携、LINE/Geminiボット、Webアプリ。">
+<link rel="alternate" hreflang="en" href="https://tomo0904.github.io/">
+<link rel="alternate" hreflang="ja" href="https://tomo0904.github.io/ja/">
+<link rel="stylesheet" href="../style.css"></head><body>
+<header class="hero"><nav class="lang" aria-label="言語"><a href="../" lang="en" hreflang="en">English</a>|<strong lang="ja">日本語</strong></nav><div class="wrap"><h1>Tomohiro</h1>
+<p class="sub">AI自動化デベロッパー | n8n・Python・API連携</p>
+<p class="sub">繰り返しの作業をなくす自動化とボットを作っています。日本・京都（UTC+9）。</p>
+<a class="btn" href="https://www.upwork.com/freelancers/~0159af0451937c1a2a">Upworkで依頼する</a>
+<a class="btn alt" href="https://github.com/TOMO0904">GitHub</a></div></header>
+<main class="wrap">
+<h2>スキル</h2><div class="skills"><span>Python</span><span>n8n</span><span>API連携</span><span>Googleスプレッドシート</span><span>LINE / Geminiボット</span><span>React</span><span>TypeScript</span><span>Next.js</span></div>
+<h2>事例紹介</h2>
+<article><h3>自動化のデモ</h3><p class="tag">サンプル・デモ用のリポジトリ（クライアント案件ではありません）</p><dl><dt>課題</dt><dd>ツールやスプレッドシートの間のコピー＆ペーストに、毎日何時間も取られてしまう。</dd><dt>解決方法</dt><dd>認証情報を取り除いた再利用しやすいn8nワークフローのレシピと、APIのデータを集計してGoogleスプレッドシートに書き込むPythonスクリプト。</dd><dt>技術</dt><dd>n8n、Python、gspread、REST API</dd><dt>リンク</dt><dd><a href="https://github.com/TOMO0904/n8n-automation-recipes">n8n-automation-recipes</a> · <a href="https://github.com/TOMO0904/python-sheets-automation">python-sheets-automation</a></dd></dl></article>
+<article><h3>Deep Space Care — メンタルケアLINE Bot</h3><p class="tag">プロトタイプ・デモ</p><dl><dt>課題</dt><dd>閉鎖・隔離され通信遅延の大きい環境のクルーは、気持ちの面での一次対応を地上の支援に頼れない。また、危機的な状態の人に対してチャットボットが即興で答えてはならない。</dd><dt>解決方法</dt><dd>Geminiで「共感・小さなセルフケア・質問」を返すLINE Bot。文章がモデルに渡る前に危機表現を検出して有人サポートへ引き継ぎ、タイムアウト時は固定の返信に切り替える。</dd><dt>技術</dt><dd>Python、FastAPI、LINE Messaging API（HMAC-SHA256によるWebhook署名検証）、Gemini API、SQLite、pytest、Docker</dd><dt>リンク</dt><dd><a href="https://github.com/TOMO0904/deep-space-care-linebot">GitHubのソースコード</a></dd></dl></article>
+<article><h3>Task Logger LINE Bot</h3><p class="tag">個人用ツール</p><dl><dt>課題</dt><dd>時間の記録はつい忘れてしまう。普段使っているチャットの中で記録できるのが理想。</dd><dt>解決方法</dt><dd>LINEの短いコマンドでタスクをFirestoreに記録し、AIのフィードバック付きで1日のタイムラインを作成。記録が途切れると30分パトロールが警告する。</dd><dt>技術</dt><dd>Python、Flask、LINE Messaging API、Gemini、Firebase Firestore</dd><dt>リンク</dt><dd><a href="https://github.com/TOMO0904/linebot">GitHubのソースコード</a></dd></dl></article>
+<article><h3>時間割・シラバス検索</h3><p class="tag">学生による非公式プロジェクト（立命館大学とは関係ありません）</p><dl><dt>課題</dt><dd>シラバス検索が遅く、年度やセメスターの切り替えが面倒で、教科書のための授業コード集めも手作業だった。</dd><dt>解決方法</dt><dd>ブラウザ側の高速な絞り込み、元データが変わっても崩れない「追加時のスナップショット」、Sync IDによるパスワード不要の端末間同期、授業コードのワンタップコピーを備えたNext.jsアプリ。</dd><dt>技術</dt><dd>Next.js 14、React、TypeScript、Tailwind CSS、Supabase、Vercel</dd><dt>リンク</dt><dd><a href="https://github.com/TOMO0904/RitsumeikanTimes">GitHubのソースコード</a> · <a href="https://gamma-gilt.vercel.app/">公開デモ</a></dd></dl></article>
+<article><h3>オフライン・ボードゲーム PWA</h3><p class="tag">Webアプリ</p><dl><dt>課題</dt><dd>スマホのボードゲームは、たいていネット接続かアプリストアからのインストールが必要。</dd><dt>解決方法</dt><dd>ボード・カードゲーム25種を収め、完全にオフラインで動き、WebRTCで近くの端末同士の対戦もできる、インストール可能なPWA。</dd><dt>技術</dt><dd>React、TypeScript、PWA / Service Worker、WebRTC、Vercel</dd><dt>リンク</dt><dd><a href="https://offline-board-games.vercel.app">公開デモ</a> · <a href="https://github.com/TOMO0904/offline-board-games">GitHubのソースコード</a></dd></dl></article>
+<article><h3>変圧器のオイル温度予測</h3><p class="tag">公開ベンチマークを使ったデータ分析プロジェクト</p><dl><dt>課題</dt><dd>アラートには対応するための時間的な余裕が必要で、過熱の見逃しは誤報よりはるかに損失が大きい。</dd><dt>解決方法</dt><dd>予測の先読み時間を比較したうえで、見逃しを5倍重く罰する非対称損失のLightGBMを構築。3時間先の予測に5.4 °Cのマージンを加え、評価データ上で見逃し0件・誤報率10%未満を達成。</dd><dt>技術</dt><dd>Python、pandas、scikit-learn、LightGBM、Optuna、Matplotlib</dd><dt>リンク</dt><dd><a href="https://github.com/TOMO0904/Athena">GitHubのソースコード</a></dd></dl></article>
+<article><h3>HAND DODGE+ — Webカメラゲーム</h3><p class="tag">個人プロジェクト</p><dl><dt>課題</dt><dd>普通のWebカメラが、遅延の少ない実用的なゲームコントローラーになるかを確かめる。</dd><dt>解決方法</dt><dd>MediaPipeの手のランドマークから、なめらかに補正した左右の操作を作成。コンボ制のスコア、3つの難易度、ユニットテスト済みのゲームロジック。</dd><dt>技術</dt><dd>Python、OpenCV、MediaPipe、NumPy</dd><dt>リンク</dt><dd><a href="https://github.com/TOMO0904/hand-dodge-plus">GitHubのソースコード</a></dd></dl></article>
+<article><h3>Hand Target Shooter</h3><p class="tag">個人プロジェクト</p><dl><dt>課題</dt><dd>ハンドトラッキングで「狙う」と「撃つ」を分け、手を動かしただけでは発射しないようにする。</dd><dt>解決方法</dt><dd>照準は指先に追従。指の軸に沿って指先が素早く伸びたときだけ発射し、クールダウンと「指を戻す」判定で誤発射を防ぐ。</dd><dt>技術</dt><dd>Python、OpenCV、MediaPipe、pytest</dd><dt>リンク</dt><dd><a href="https://github.com/TOMO0904/Hand-Target-Shooter">GitHubのソースコード</a></dd></dl></article>
+<article><h3>PixelLab — 写真をドット絵に</h3><p class="tag">デスクトップアプリ</p><dl><dt>課題</dt><dd>写真からレトロなゲーム背景を手作業で作るのは、初心者には時間がかかる。</dd><dt>解決方法</dt><dd>写真を減色・拡大してドット絵、ゲーム背景（昼・夕暮れ・夜）、スプライト、シームレスタイルを作るTkinterのGUI。処理はすべてPC内で完結。</dd><dt>技術</dt><dd>Python、Pillow、Tkinter</dd><dt>リンク</dt><dd><a href="https://github.com/TOMO0904/RiG-PixelLab">GitHubのソースコード</a></dd></dl></article>
+<article><h3>ゲーム制作タスクボード</h3><p class="tag">バックエンドのプロジェクト（公開環境は停止済み）</p><dl><dt>課題</dt><dd>平らなToDoリストでは、タスクの親子関係と合計工数が見えにくい。</dd><dt>解決方法</dt><dd>ツリー構造のタスクと、工数を再帰的に集計するサービス、REST API。データベースはH2とMySQLを切り替え可能。</dd><dt>技術</dt><dd>Java 21、Spring Boot、Spring Data JPA、MySQL / AWS RDS</dd><dt>リンク</dt><dd><a href="https://github.com/TOMO0904/todolist">GitHubのソースコード</a></dd></dl></article>
+
+</main>
+<footer><div class="wrap">ご連絡は <a href="https://www.upwork.com/freelancers/~0159af0451937c1a2a">Upwork</a> · <a href="https://github.com/TOMO0904">GitHub</a> からどうぞ。デモ・プロトタイプ・個人と記載したプロジェクトは、クライアント案件ではありません。</div></footer>
+</body></html>

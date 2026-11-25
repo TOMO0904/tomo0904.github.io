@@ -12,3 +12,5 @@ article h3{margin:0 0 4px}article .tag{color:var(--mute);font-size:.85rem;margin
 article dl{margin:0}article dt{font-weight:700;margin-top:10px;color:#cfd8f3}article dd{margin:2px 0 0;color:var(--mute)}
 article img{max-width:100%;border-radius:8px;margin-top:12px}
 footer{padding:40px 0 60px;color:var(--mute);border-top:1px solid var(--line);margin-top:40px}
+.lang{position:absolute;top:18px;right:20px;font-size:.95rem;color:var(--mute)}.lang a{text-decoration:none;padding:2px 6px}.lang strong{color:var(--ink);padding:2px 6px}
+header.hero{position:relative}
