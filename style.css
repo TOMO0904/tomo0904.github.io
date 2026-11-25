@@ -1,0 +1,14 @@
+:root{--bg:#0b1020;--card:#131a2e;--ink:#e8ecf6;--mute:#9aa6c4;--acc:#14a800;--line:#24304f}
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+a{color:#7cc4ff}.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header.hero{padding:72px 0 48px;border-bottom:1px solid var(--line)}
+.hero h1{margin:0 0 8px;font-size:2.4rem}.hero p.sub{color:var(--mute);margin:0 0 6px;font-size:1.15rem}
+.btn{display:inline-block;margin:20px 12px 0 0;padding:12px 22px;border-radius:8px;background:var(--acc);color:#fff;text-decoration:none;font-weight:600}
+.btn.alt{background:transparent;border:1px solid var(--line);color:var(--ink)}
+h2{margin:48px 0 16px;font-size:1.5rem}
+.skills span{display:inline-block;margin:0 8px 8px 0;padding:4px 12px;border:1px solid var(--line);border-radius:999px;color:var(--mute);font-size:.9rem}
+article{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;margin:0 0 20px}
+article h3{margin:0 0 4px}article .tag{color:var(--mute);font-size:.85rem;margin:0 0 12px}
+article dl{margin:0}article dt{font-weight:700;margin-top:10px;color:#cfd8f3}article dd{margin:2px 0 0;color:var(--mute)}
+article img{max-width:100%;border-radius:8px;margin-top:12px}
+footer{padding:40px 0 60px;color:var(--mute);border-top:1px solid var(--line);margin-top:40px}
