@@ -60,4 +60,4 @@ footer{margin-top:80px;padding:32px 0 48px;border-top:1px solid var(--line);colo
 :focus-visible{outline:2px solid var(--acc2);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media (max-width:860px){.svcs,.grid,.skgrid{grid-template-columns:1fr}.feat,.feat:nth-of-type(even){grid-template-columns:1fr}.feat:nth-of-type(even) .media{order:0}.feat .media,.feat:nth-of-type(even) .media{margin:0;border:0;border-radius:0}}
-@media (max-width:620px){.nav{display:none}.lang{margin-left:auto}.hero{padding:64px 0 48px}.stats li{flex:1 1 100%}.body,.feat .body{padding:18px}}
+@media (max-width:620px){.nav{display:none}.lang{margin-left:auto}.hero{padding:64px 0 48px}.stats li{flex:1 1 40%;padding:12px 16px}.body,.feat .body{padding:18px}}
